@@ -31,14 +31,14 @@ This project compares **bid–ask spreads** across exchanges to identify moments
 Two arbitrage paths are evaluated:
 
 ### 🔹 Opportunity 1
-Buy on Binance (ask)
-Sell on Kraken (bid)
+Buy on Binance (ask) -> Sell on Kraken (bid)
 
 ### 🔹 Opportunity 2
-Buy on Kraken (ask)
-Sell on Binance (bid)
+Buy on Kraken (ask) -> Sell on Binance (bid)
 
+```bash
 If the sell price is higher than the buy price, an arbitrage opportunity is flagged.
+```
 
 ---
 
